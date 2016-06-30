@@ -30,7 +30,6 @@ public class MainPoop {
 		ModBlocks.init();
 		ModBlocks.register();
 		
-		ModBlocks.registerRenders();
 	}
 	@EventHandler
 	public void init(FMLInitializationEvent event){

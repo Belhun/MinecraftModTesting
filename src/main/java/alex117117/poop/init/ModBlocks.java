@@ -19,7 +19,7 @@ public class ModBlocks {
 		GameRegistry.register(poopypile);
 	}
 	public static void registerRenders(){
-		
+		registerRender(poopypile);
 	}
 	
 	private static void registerBlock(Block block){
@@ -36,11 +36,13 @@ public class ModBlocks {
 	private static void registerRender(Block block){
 		
 		Item item = Item.getItemFromBlock(block);
-		
+		/*
 		System.out.println(block.getRegistryName() + " OVER HERE AM WHAT YOU ARE LOOKING FOR");
 		
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory" ));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(block.getIdFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory" ));
 		System.out.println(block.getRegistryName() + " OVER HERE AM WHAT YOU ARE LOOKING FOR");
+		*/
+		
 	}
 	
 }

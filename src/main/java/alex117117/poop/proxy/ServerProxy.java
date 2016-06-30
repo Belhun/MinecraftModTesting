@@ -6,6 +6,10 @@ public class ServerProxy implements CommonProxy {
 	public void init() {
 		
 	}
+	/*@Override
+	public void preinit(){
+		
+	}*/
 	
 	
 	

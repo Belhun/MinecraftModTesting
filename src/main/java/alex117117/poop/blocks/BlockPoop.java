@@ -11,10 +11,11 @@ public class BlockPoop extends Block {
 
 	public BlockPoop() {
 		super(Material.CLAY);
-		setUnlocalizedName(Reference.BlockPoop.Pooppile.getUnlocalizedName());
-		setRegistryName(Reference.BlockPoop.Pooppile.getRegistryName());
+		setUnlocalizedName(alex117117.poop.Reference.BlockPoop.Pooppile.getUnlocalizedName());
+		setRegistryName(alex117117.poop.Reference.BlockPoop.Pooppile.getRegistryName());
 		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		this.getBlockState();
+		
 	}
 
 	
