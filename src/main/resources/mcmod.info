@@ -1,0 +1,16 @@
+[
+{
+  "modid": "AlexPoop",
+  "name": "Alex's Poop Mod",
+  "description": "this mod is based around poop",
+  "version": "1.0",
+  "mcversion": "1.9.4",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Alex117117"],
+  "credits": "id like to thank mrcrayfish for the Modding Tutorials witch helped with this mod",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
