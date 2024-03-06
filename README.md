@@ -1,4 +1,4 @@
-# PooperMod
-this is The pooperMod
+# MinecraftModTesting
+this is The MinecraftModTesting
 
-made when i was 13 lol
+made when i was 13
